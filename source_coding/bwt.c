@@ -29,19 +29,6 @@ static int wrap_cmp(const void *p1, const void *p2)
 	return i2 - i1;
 }
 
-/* Compare byte, for use in iBWT */
-static int byte_cmp(const void *p1, const void *p2)
-{
-	unsigned char c1 = *(unsigned char *)p1;
-	unsigned char c2 = *(unsigned char *)p2;
-
-	if (c1 > c2)
-		return 1;
-	if (c1 < c2)
-		return -1;
-	return 0;
-}
-
 /* Burrows-Wheeler Transform */
 void bwt(unsigned char *input, unsigned char *output, size_t *index, size_t length)
 {
