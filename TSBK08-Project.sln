@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "entropy", "entropy\entropy.vcxproj", "{25DAA63E-68B7-40D3-BAE1-18CDB3E055B8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "source_coding", "source_coding\source_coding.vcxproj", "{C849E060-1EBA-48C1-BCAA-952903A69014}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{25DAA63E-68B7-40D3-BAE1-18CDB3E055B8}.Release|x64.Build.0 = Release|x64
 		{25DAA63E-68B7-40D3-BAE1-18CDB3E055B8}.Release|x86.ActiveCfg = Release|Win32
 		{25DAA63E-68B7-40D3-BAE1-18CDB3E055B8}.Release|x86.Build.0 = Release|Win32
+		{C849E060-1EBA-48C1-BCAA-952903A69014}.Debug|x64.ActiveCfg = Debug|x64
+		{C849E060-1EBA-48C1-BCAA-952903A69014}.Debug|x64.Build.0 = Debug|x64
+		{C849E060-1EBA-48C1-BCAA-952903A69014}.Debug|x86.ActiveCfg = Debug|Win32
+		{C849E060-1EBA-48C1-BCAA-952903A69014}.Debug|x86.Build.0 = Debug|Win32
+		{C849E060-1EBA-48C1-BCAA-952903A69014}.Release|x64.ActiveCfg = Release|x64
+		{C849E060-1EBA-48C1-BCAA-952903A69014}.Release|x64.Build.0 = Release|x64
+		{C849E060-1EBA-48C1-BCAA-952903A69014}.Release|x86.ActiveCfg = Release|Win32
+		{C849E060-1EBA-48C1-BCAA-952903A69014}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
