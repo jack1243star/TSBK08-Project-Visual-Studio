@@ -24,12 +24,21 @@
     <ClCompile Include="test_bwt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mtf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_mtf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bwt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="greatest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mtf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

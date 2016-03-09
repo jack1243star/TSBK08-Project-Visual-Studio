@@ -112,11 +112,14 @@
   <ItemGroup>
     <ClCompile Include="bwt.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="mtf.c" />
     <ClCompile Include="test_bwt.c" />
+    <ClCompile Include="test_mtf.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bwt.h" />
     <ClInclude Include="greatest.h" />
+    <ClInclude Include="mtf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

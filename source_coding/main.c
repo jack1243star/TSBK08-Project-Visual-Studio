@@ -9,6 +9,7 @@
 #include "greatest.h"
 GREATEST_MAIN_DEFS();
 extern SUITE(bwt_suite);
+extern SUITE(mtf_suite);
 
 int main(int argc, char **argv)
 {
@@ -17,6 +18,7 @@ int main(int argc, char **argv)
 	{
 		GREATEST_INIT();
 		RUN_SUITE(bwt_suite);
+		RUN_SUITE(mtf_suite);
 		GREATEST_PRINT_REPORT();
 	}
 
