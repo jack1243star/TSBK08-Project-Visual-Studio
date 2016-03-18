@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bwt.c" />
+    <ClCompile Include="lzw.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="mtf.c" />
     <ClCompile Include="test_bwt.c" />
@@ -119,7 +120,11 @@
   <ItemGroup>
     <ClInclude Include="bwt.h" />
     <ClInclude Include="greatest.h" />
+    <ClInclude Include="lzw.h" />
     <ClInclude Include="mtf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_lzw.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
