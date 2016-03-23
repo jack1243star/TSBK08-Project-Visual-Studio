@@ -10,7 +10,11 @@
 GREATEST_MAIN_DEFS();
 extern SUITE(bwt_suite);
 extern SUITE(mtf_suite);
+<<<<<<< HEAD
 extern SUITE(lzw_suite);
+=======
+extern SUITE(arith_suite);
+>>>>>>> feature-arith
 
 int main(int argc, char **argv)
 {
@@ -21,6 +25,7 @@ int main(int argc, char **argv)
 		RUN_SUITE(bwt_suite);
 		RUN_SUITE(mtf_suite);
 		RUN_SUITE(lzw_suite);
+		RUN_SUITE(arith_suite);
 		GREATEST_PRINT_REPORT();
 	}
 

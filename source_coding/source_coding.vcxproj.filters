@@ -36,6 +36,14 @@
     <ClCompile Include="test_lzw.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="test_arith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bwt.h">
@@ -48,6 +56,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="lzw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arith.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

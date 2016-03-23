@@ -114,14 +114,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arith.c" />
     <ClCompile Include="bwt.c" />
     <ClCompile Include="lzw.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="mtf.c" />
+    <ClCompile Include="test_arith.c" />
     <ClCompile Include="test_bwt.c" />
     <ClCompile Include="test_mtf.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="arith.h" />
     <ClInclude Include="bwt.h" />
     <ClInclude Include="greatest.h" />
     <ClInclude Include="lzw.h" />
