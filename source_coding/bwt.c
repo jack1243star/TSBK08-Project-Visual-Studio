@@ -4,7 +4,7 @@
 
 #include "bwt.h"
 
-#define MAX_BLOCK_SIZE 4096
+#define MAX_BLOCK_SIZE 32768
 
 /* Buffer containing the block to be transformed*/
 static unsigned char *buffer;
